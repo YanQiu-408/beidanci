@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="theme-color" content="#4F46E5" />
+    <meta name="description" content="背单词 · 四六级考研每日单词 + AI 每日阅读 + AI 批改" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="背单词" />
+    <link rel="icon" href="/beidanci/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/beidanci/icons/icon-192.png" />
+    <title>背单词 · 每日一词</title>
+    <style>
+      /* 启动占位：点桌面图标后立刻有反馈，不等 JS 加载 */
+      .boot-splash {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        background: #f6f6fb;
+        color: #6b7280;
+        font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      }
+      .boot-splash .boot-logo {
+        width: 64px;
+        height: 64px;
+        border-radius: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+        font-weight: 800;
+        color: #fff;
+        background: linear-gradient(135deg, #6366f1, #4f46e5);
+        box-shadow: 0 10px 30px rgba(79, 70, 229, 0.35);
+      }
+      .boot-splash .boot-dots {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 13px;
+      }
+      .boot-splash .boot-dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: #a5b4fc;
+        animation: bootPulse 1s ease-in-out infinite;
+      }
+      .boot-splash .boot-dot:nth-child(2) {
+        animation-delay: 0.15s;
+      }
+      .boot-splash .boot-dot:nth-child(3) {
+        animation-delay: 0.3s;
+      }
+      @keyframes bootPulse {
+        0%,
+        100% {
+          opacity: 0.35;
+          transform: scale(0.8);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1.2);
+        }
+      }
+      @media (prefers-color-scheme: dark) {
+        .boot-splash {
+          background: #0b0b12;
+          color: #9ca3af;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/beidanci/assets/index-BRWoJv6z.js"></script>
+    <link rel="stylesheet" crossorigin href="/beidanci/assets/index-Ce4jcuaE.css">
+  <link rel="manifest" href="/beidanci/manifest.webmanifest"></head>
+  <body>
+    <div id="root">
+      <div class="boot-splash">
+        <div class="boot-logo">背</div>
+        <div class="boot-dots">
+          正在打开
+          <span class="boot-dot"></span>
+          <span class="boot-dot"></span>
+          <span class="boot-dot"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
